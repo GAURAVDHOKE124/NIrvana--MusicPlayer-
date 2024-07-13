@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/loggggg"
+        android:label="Nirvana"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyMusicPlayer"
+        tools:targetApi="31">
+        <activity android:name=".playlist"/>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".class_playlist"/>
+        <activity android:name=".classclass1"/>
+        <activity android:name=".classclass2"/>
+        <activity android:name=".kpop_playlist"/>
+        <activity android:name=".kpopclass1"/>
+        <activity android:name=".kpopclass2"/>
+        <activity android:name=".love_playlist"/>
+        <activity android:name=".loveclass1"/>
+        <activity android:name=".loveclass2"/>
+        <activity android:name=".chill_playlist"/>
+        <activity android:name=".chillclass1"/>
+        <activity android:name=".chillclass2"/>
+        <activity android:name=".sleep_playlist"/>
+        <activity android:name=".sleepclass1"/>
+        <activity android:name=".sleepclass2"/>
+        <activity android:name=".inst_playlist"/>
+        <activity android:name=".instclass1"/>
+        <activity android:name=".instclass2"/>
+        <activity android:name=".tra_playlist"/>
+        <activity android:name=".traclass1"/>
+        <activity android:name=".traclass2"/>
+        <activity android:name=".hip_playlist"/>
+        <activity android:name=".hipclass1"/>
+        <activity android:name=".hipclass2"/>
+        <service android:name=".BackgroundMusicService" />
+
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

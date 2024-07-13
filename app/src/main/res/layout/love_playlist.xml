@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ima"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="234dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="40dp"
+        android:text="LOVE  PLAYLIST"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
